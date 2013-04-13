@@ -1,0 +1,612 @@
+body{
+background-image: url("../images/bg.jpg");
+}
+input, .button{
+border:none;
+}
+.header{
+height: 70px;
+margin-bottom: 10px;
+}
+.news h1{
+font-size: 26px;
+padding: 5px 0 5px 50px;
+color: #bed4e7;
+font-family: verdana, sans-serif;
+font-weight: bold;
+}
+.wrapper{
+margin: 0 auto;
+width: 960px;
+}
+.flags{
+height: 30px;
+padding-top:10px;
+padding-left:720px;
+width:240px;
+}
+.button, .textMy{
+border-radius: 5px;
+}
+.textMy{
+margin-top:5px;
+width: 224px;
+height:25px;
+}
+.button{
+background-image: url("../images/search_button.png");
+width: 94px;
+height: 30px;
+background-repeat: no-repeat;
+font-family: calibri, verdana, sans-serif;
+color: #7a0000;
+font-size: 18px;
+margin-left:5px;
+}
+.smallWrapper{
+background-image: url("../images/image_transp.png");
+background-repeat: repeat;
+border-radius: 5px;
+min-height: 1000px;
+padding-bottom:5px;
+}
+.logo.search{
+display: inline;
+}
+.search{
+width:350px;
+height:30px;
+float: right;
+padding-top:15px;
+}
+.logo{
+position: absolute;
+margin: 10px 0 0px 55px;
+background-image: url("../images/logo_big.png");
+background-repeat: no-repeat;
+float: left;
+width: 89px;
+height: 64px;
+}
+.menuLogo, .list{
+display: inline-block;
+}
+.news{
+width: 900px;
+height: 310px;
+background-color: #ffffff;
+background-image: url("../images/big_two_balls.png");
+background-repeat: no-repeat;
+background-position: left bottom;
+border-radius: 5px;
+margin: 7px auto 15px;
+padding: 0px 10px;
+position:relative;
+}
+.footer{
+margin-top: 16px;
+background-color: #ffffff;
+height: 58px;
+border-radius: 5px;
+}
+.menuLogo{
+position: absolute;
+width: 260px;
+height: 71px;
+float: left;
+background-image: url("../images/balls.png");
+background-repeat: no-repeat;
+}
+.menu_img{
+height: 71px;
+width: 960px;
+background-image: url("../images/menu.png");
+background-repeat: repeat-x;
+}
+.carrousel{
+background-color: #cedeed;
+border-radius: 5px;
+height: 240px;
+width: 830px;
+margin-left: 30px;
+box-shadow:4px 4px 4px #96a6b5 inset;
+}
+.list{
+width: 680px;
+float: right;
+padding: 22px 10px;
+}
+.list li{
+display: inline;
+padding-left:5px;
+}
+.list li a{
+font-size: 26px;
+padding: 3px 10px;
+color: #7a0000;
+font-family: calibri,verdana, sans-serif;
+letter-spacing:0.02em;
+}
+.list li a:hover{
+background-color:#7a0000;
+font-family: calibri,verdana, sans-serif;
+color: #ffffff;
+cursor:pointer;
+}
+.footerRight.footerLeft{
+display: inline;
+}
+.footerRight{
+float: right;
+}
+.footerLeft{
+float: left;
+}
+.rightTop{
+padding-bottom:10px;
+}
+.contBottom{
+width:400px;
+float: right;
+height:30px;
+margin-top:30px;
+}
+.contBottom li{
+display: inline;
+}
+.contBottom li a{
+display: inline;
+float: right;
+text-decoration: none;
+color: #3d6202;
+padding: 5px 5px;
+font-family: calibri, verdana, sans-serif;
+font-size: 14px;
+font-weight: bold;
+letter-spacing: 0.06em;
+}
+.contBottom li a:hover{
+display: inline;
+float: right;
+text-decoration: underline;
+color: #008aff;
+cursor:url("../images/hand.png"),pointer;
+}
+.sel_lang{
+width:150px;
+font-style:italic;
+font-weight: bold;
+color: #ffffff;
+font-size: 12px;
+font-family: verdana, sanf-serif;
+}
+.flg{
+width:40px;
+}
+a{
+text-decoration: none;
+}
+.bottomMenu{
+height: 9px;
+background-color: #7a0000;
+}
+.topMenu{
+height: 9px;
+background-color: #92c802;
+}
+.content{
+width: 920px;
+height: 500px;
+margin-left: 20px;
+}
+.left .right{
+display: inline;
+}
+.left{
+float:left;
+border-radius: 5px;
+width: 220px;
+background-color: #ffffff;
+height: 340px;
+position:relative;
+padding: 20px 10px;
+}
+.right{
+padding: 20px 20px 40px;
+width: 620px;
+float: right;
+border-radius: 5px;
+background-color: #ffffff;
+position:relative;
+}
+.rightRight .rightLeft{
+display: inline;
+padding: 10px;
+}
+.rightRight{
+float: right;
+width: 45%;
+margin-right: 20px;
+}
+.rightLeft{
+float: left;
+width: 45%;
+margin-left: 20px;
+}
+.rightRight p{
+margin: 10px 0 10px 55px;
+width: 200px;
+}
+.rightLeft p{
+margin: 10px 0 10px 55px;
+}
+.footerRight p{
+display: inline;
+float: right;
+text-decoration: none;
+color: #e0e5e8;
+padding: 25px 25px 15px 0;
+font-family: calibri, verdana, sans-serif;
+font-style: italic;
+font-weight: bold;
+}
+.left li{
+border-bottom: 1px solid #e8e8e8;
+}
+.left li:hover{
+background: #ebf6ff;
+cursor:url("../images/hand.png"),pointer;
+}
+.left li a{
+text-decoration: none;
+font-family: calibri, verdana, sans-serif;
+color: #a2b5c5;
+position: absolute;
+height: 25px;
+width:180px;
+margin: 3px 10px;
+}
+.left li a:hover{
+color: #008aff;
+cursor:url("../images/hand.png"),pointer;
+}
+.left h1{
+width: 180px;
+margin-left:-10px;
+padding-left: 60px;
+background-color: #93c902;
+font-size: 24px;
+color: #ffffff;
+line-height:1.5em;
+font-family: verdana, sans-serif;
+font-weight: bold;
+}
+.rightTop h1{
+margin-left:-20px;
+padding-left: 60px;
+width: 220px;
+background-color: #bed4e7;
+font-size: 24px;
+color: #ffffff;
+line-height:1.5em;
+font-family: verdana, sans-serif;
+font-weight: bold;
+}
+.right a span{
+text-align: center;
+display: block;
+margin-top: 15px;
+background: url("../images/csg-5124dc6c0aba1.png") no-repeat top left;
+width: 189px;
+height: 24px;
+color: #ffffff;
+font-family: calibri, verdana, sans-serif;
+line-height:25px;
+}
+.cup_right {
+background: url("../images/csg-5124c91a2da46.png") no-repeat top left;
+position:absolute;
+left:5px;
+top:3px;
+}
+.sprite-cup_bronze{ background-position: 0 0; width: 15px; height: 21px; } 
+.sprite-cup_gold{ background-position: 0 -71px; width: 15px; height: 21px; } 
+.sprite-cup_silver{ background-position: 0 -142px; width: 15px; height: 21px; } 
+.sprite-cup_small_shadowed{ background-position: 0 -213px; width: 15px; height: 21px; }
+ 
+.flag_left {
+background: url("../images/csg-5124d9c2a1383.png") no-repeat top left;
+position:absolute;
+right:-15px;
+top:3px;
+}
+.sprite-angola{ background-position: 0 0; width: 24px; height: 24px; } 
+.sprite-france{ background-position: 0 -74px; width: 24px; height: 24px; } 
+.sprite-new_caledonia{ background-position: 0 -148px; width: 24px; height: 24px; } 
+.sprite-romania{ background-position: 0 -222px; width: 24px; height: 24px; } 
+.sprite-russia{ background-position: 0 -296px; width: 24px; height: 19px; } 
+.sprite-ukraine{ background-position: 0 -365px; width: 24px; height: 24px; } 
+.sel_country{
+float:right;
+}
+.flags a{
+margin-left: 5px;
+background-image:url("../images/csg-5124d5c50547c.png");
+float: right;
+}
+.sprite-france_spr{ background-position: 0 0; width: 26px; height: 20px; } 
+.sprite-france_spr:hover{ background-position: 0 -70px; width: 26px; height: 20px; } 
+.sprite-germ_spr{ background-position: 0 -140px; width: 26px; height: 20px; } 
+.sprite-germ_spr:hover{ background-position: 0 -210px; width: 26px; height: 20px; } 
+.sprite-usa_sprite{ background-position: 0 -280px; width: 26px; height: 20px; } 
+.sprite-usa_sprite:hover{ background-position: 0 -350px; width: 26px; height: 20px; } 
+.sprite-green_button{ background-position: 0 0; width: 189px; height: 24px; } 
+.sprite-green_button:hover{ background-position: 0 -74px; width: 189px; height: 24px;cursor:url("../images/hand.png"),pointer; } 
+
+.big_cup{
+background-image: url("../images/cup_gold_big.png");
+position:absolute;
+height: 68px;
+width: 45px;
+margin-top:-5px;
+left:10px;
+}
+.arrows{
+background: url("../images/csg-5124e0bdacc2d.png") no-repeat top left;
+position: absolute;
+}
+.sprite-down_arrow{ background-position: 0 0; width: 56px; height: 19px; } 
+.sprite-left_arrow{ background-position: 0 -69px; width: 18px; height: 55px; } 
+.sprite-left_arrow_green{ background-position: 0 -174px; width: 18px; height: 55px; } 
+.sprite-right_arrow{ background-position: 0 -279px; width: 18px; height: 55px; } 
+.sprite-right_arrow_shad{ background-position: 0 -384px; width: 18px; height: 55px; } 
+.sprite-up_arrow{ background-position: 0 -489px; width: 56px; height: 19px; } 
+.sprite-up_arrow_green{ background-position: 0 -558px; width: 56px; height: 19px; } 
+.sprite-up_arrow_shade{ background-position: 0 -627px; width: 56px; height: 19px; } 
+.arrows,.sprite-up_arrow{
+margin: 20px 90px;
+position: absolute;
+}
+.logo_under_cups{
+background: url("../images/logo_under_flags.png") no-repeat top left;
+width: 163px;
+height: 39px;
+margin-left:30px;
+margin-top:40px;
+}
+.footerLeft{
+height: 36px;
+margin: 10px 5px;
+}
+.footerLeft img{
+border-radius: 3px;
+border: 1px solid #c6d5db;
+}
+.footerLeft img:hover{
+background-image: url("../images/hover.png");
+cursor:url("../images/hand.png"),pointer;
+}
+.arrows .sprite-up_arrow{
+background-position: center center;
+}
+.carrousel li{
+width: 180px;
+float: left;
+margin: 0px 12px;
+}
+.carrousel h2:hover{
+color: #81c5ff;
+}
+.car_li1, .car_li2, .car_li3, .car_li4{
+margin: 10px 5px;
+display: inline-block;
+width: 180px;
+height: 230px;
+background-color: #fff;
+}
+.one, .two, .three, .four{
+width: 160px;
+height: 120px;
+margin: 7px 7px;
+background-position: center center;
+}
+.one{
+background-image: url("../images/japan_another.jpg");
+}
+.two{
+background-image: url("../images/japan.jpg");
+}
+.three{
+background-image: url("../images/germany.jpg");
+}
+.four{
+background-image: url("../images/slovenia.jpg");
+}
+.li_h2 a{
+width:150px;
+padding-left:10px;
+float:left;
+color: #bed4e7;
+font-size: 30px;
+font-family: calibri, verdana, sans-serif;
+font-weight: bold;
+letter-spacing: 1px;
+}
+.li_h2 a:hover{
+color:#81c5ff;
+cursor:url("../images/hand.png"),pointer;
+}
+.left_arrow_news, .right_arrow_news, .carrousel{
+display: inline-block;
+}
+.left_arrow_news{
+width: 10px;
+position: absolute;
+float: left;
+background-position: center center;
+}
+.right_arrow_news{
+width: 10px;
+position: absolute;
+float: right;
+}
+.carrousel, .carrousel li{
+overflow:hidden;
+}
+#controls a{
+background-image: url("../images/csg-5124e0bdacc2d.png");
+margin-top: 95px;
+}
+.prevBtn{
+background-position: 0 -174px;
+width: 18px;
+height: 55px;
+position:absolute;
+top:40px;
+left:10px;
+}
+.nextBtn{
+background-position: 0 -279px;
+width: 18px;
+height: 55px;
+position:absolute;
+top:40px;
+left:880px;
+}
+.carrousel ul, .carrousel li{
+position: relative;
+}
+#slider, #slider li {
+overflow:hidden; 
+}
+#slider ul, #slider li{
+position:relative;
+margin:0;
+padding:0;
+list-style:none;
+display:block;
+}
+.slider, .slider li {
+height:30px;
+width: 210px;
+overflow:hidden;
+}
+.slider ul, .slider li{
+position:relative;
+margin:0;
+padding:0;
+list-style:none;
+display:block;
+}
+#controls1 a{
+background-image: url("../images/csg-5124e0bdacc2d.png");
+margin-top: 95px;
+}
+.prevBtn1{
+background-position: 0 -558px; width: 56px; height: 19px;
+position:absolute;
+left:90px;
+top:-20px;
+}
+/*left arrow hide
+.firstBtn{
+background-position: 0 -69px; width: 18px; height: 55px;
+position:absolute;
+}*/
+.nextBtn1{
+background-position: 0 0; width: 56px; height: 19px;
+position:absolute;
+left:90px;
+top: 210px;
+}
+.cups{
+margin-bottom:5px;
+}
+.coutry{
+position:absolute;
+left:25px;
+top:5px;
+}
+.shad_champ{
+height:11px;
+width:196px;
+background-image:url("../images/shadow.png");
+position:absolute;
+left:30px;
+}
+.socc_cup{
+height: 90px;
+width: 10px;
+}
+.for_cont{
+width:45%;
+float:left;
+position:relative;
+}
+.text_cont{
+width:200px;
+font-style:normal;
+line-height:1.1em;
+font-family:calibri,verdana,sans-serif;
+color:#2e4c61;
+padding-left:70px;
+float:right;
+}
+.img_cont{
+width:27%;
+height:50%;
+background-repeat:no-repeat;
+position:absolute;
+top:10px;
+}
+.pic1{
+background-image:url("../images/flag.png");
+}
+.pic2{
+background-image:url("../images/stadium.png");
+}
+.pic3{
+background-image:url("../images/cards.png");
+}
+.pic4{
+background-image:url("../images/ball.png");
+}
+.for_cont h3 a{
+font-weight:bold;
+color:#bed4e7;
+font-style:normal;
+line-height:1.1em;
+font-family:calibri,verdana,sans-serif;
+font-size:20px;
+}
+.for_cont h3 a:hover{
+color:#81c5ff;
+cursor:url("../images/hand.png"),pointer;
+}
+.curFocus {
+border:3px solid #fdecb2;
+width:218px;
+height:18px;
+background:#fefefe;
+}
+.prevMy{
+background-position: 0 -174px;
+width: 18px;
+height: 55px;
+position:absolute;
+top:100px;
+left:-80px;
+}
+.nextMy{
+background-position: 0 -279px;
+width: 18px;
+height: 55px;
+position:absolute;
+top:100px;
+left:800px;
+}
+.countLi{
+    width:300px;
+    background:#ffcefe;
+    height:10px;
+}

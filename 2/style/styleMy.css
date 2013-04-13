@@ -1,0 +1,77 @@
+@import url(jquery-ui-1.10.1.custom.css);
+.ui-resizable-handle{
+    background: url(../images/my.png) no-repeat !important;
+    height:5px !important;
+    width:5px !important;
+}
+.ui-resizable-se{
+    margin: -5px !important;
+}
+html,body{
+    height:100%;
+}
+#mydiv{
+    margin:0 auto;
+    width:800px;
+    min-height:100%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    background:#99cce5;
+}
+h1{
+    margin:0 0 10px 0;
+    font-family: calibri;
+    text-align: center;
+    line-height: 44px;
+    background:#acacac;
+}
+#picSize{
+    width:500px;
+    margin:0 auto;
+}
+#pic{
+    margin:0 auto;
+    border:5px solid #fff;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+}
+form *{
+    font:16px calibri,sans-serif;
+}
+fieldset{
+    border-radius: 10px;
+    margin-top:5px;
+    position:relative;
+    background:#fff9e5;
+    border:none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+fieldset input[type="text"]{
+    position:absolute;
+    left:150px;
+    border:none;
+    border-radius: 5px;
+    width:50px;
+    outline:1px #0074c7 solid;
+}
+button{
+    border-radius: 5px;
+    height:50px;
+    width:100px;
+    position:absolute;
+    top:30px;
+    left:300px;
+    border:none;
+    background:url(../img/but.jpg)0 -50px;
+    background-repeat: repeat-x;
+        box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+}
+button:hover{
+    background-position: 0 0;
+    cursor:pointer;
+}
+body{
+    margin:0;
+    background:url(../img/background.png);
+}
+p{margin-top: 15px;}

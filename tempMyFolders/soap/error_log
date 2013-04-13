@@ -1,0 +1,9 @@
+[16-Dec-2012 15:31:36] PHP Fatal error:  Call to undefined function  setclass() in /home/u371190354/public_html/soap/server.php on line 14
+[16-Dec-2012 15:31:36] PHP Fatal error:  Uncaught SoapFault exception: [Client] looks like we got no XML document in /home/u371190354/public_html/soap/client.php:5
+Stack trace:
+#0 /home/u371190354/public_html/soap/client.php(5): SoapClient->__call('getStock', Array)
+#1 /home/u371190354/public_html/soap/client.php(5): SoapClient->getStock('2')
+#2 {main}
+  thrown in /home/u371190354/public_html/soap/client.php on line 5
+[16-Dec-2012 15:37:17] PHP Parse error:  syntax error, unexpected '(', expecting T_VARIABLE in /home/u371190354/public_html/soap/client.php on line 8
+[16-Dec-2012 15:37:18] PHP Parse error:  syntax error, unexpected '(', expecting T_VARIABLE in /home/u371190354/public_html/soap/client.php on line 8

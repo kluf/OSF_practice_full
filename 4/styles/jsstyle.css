@@ -1,0 +1,68 @@
+img{
+    width:80px;
+    height:180px;
+}
+li{
+    height: 180px;
+    width: 40px;
+    color: #92c802;
+    float: left;
+    list-style-type: none;
+}
+ul{
+    width:200px;
+    overflow: hidden;
+}
+.prevMy{
+    background-position: 0 -174px;
+    width: 18px;
+    height: 55px;
+    position:absolute;
+    top:100px;
+    left:-80px;
+    cursor:pointer;
+}
+.nextMy{
+    background-position: 0 -279px;
+    width: 18px;
+    height: 55px;
+    position:absolute;
+    top:100px;
+    left:800px;
+    cursor:pointer;
+}
+.prevMyHigh{
+    background-position: 0 -174px;
+    width: 18px;
+    height: 55px;
+    position:absolute;
+    top:100px;
+    left:-80px;
+    cursor:pointer;
+    background-position: 0 -69px; width: 18px; height: 55px;
+}
+.nextMyHigh{
+    background-position: 0 -384px;
+    width: 18px;
+    height: 55px;
+    position:absolute;
+    top:100px;
+    left:800px;
+    cursor:pointer;
+}
+.countLi ul{
+    width:300px;
+    background:#ffcefe;
+    height:20px;
+}
+.countLi ul li{
+    width:10px;
+    height:10px;
+    display:inline;
+    cursor:pointer;
+    margin-left:10px;
+    list-style-type: square;
+}
+.act_circle{
+    color:#fefefe;
+}

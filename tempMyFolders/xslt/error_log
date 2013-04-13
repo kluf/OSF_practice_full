@@ -1,0 +1,2 @@
+[15-Dec-2012 12:17:55] PHP Fatal error:  Call to undefined method XSLTProcessor::transformXML() in /home/u371190354/public_html/xslt/xslt.php on line 16
+[15-Dec-2012 12:18:35] PHP Fatal error:  Call to undefined method XSLTProcessor::transformXML() in /home/u371190354/public_html/xslt/xslt.php on line 16
